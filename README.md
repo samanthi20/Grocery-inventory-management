@@ -103,3 +103,60 @@ while choice != 5:
     else:
         # Print an invalid message
         print("Invalid choice. Please try again.")
+
+
+ OUTPUT:       
+Welcome to the Grocery Store Inventory Management Program.
+Please choose one of the following options:
+1. Add new items to the inventory.
+2. Update existing items' quantities.
+3. View the current inventory.
+4. Remove items from the inventory.
+5. Exit the program.
+Enter your choice: 1
+How many items do you want to add? 2
+Enter the name of the item: milk
+Enter the quantity of the item: 20
+Added 20 milk(s) to the inventory.
+Enter the name of the item: bread
+Enter the quantity of the item: 15
+Added 15 bread(s) to the inventory.
+Please choose one of the following options:
+1. Add new items to the inventory.
+2. Update existing items' quantities.
+3. View the current inventory.
+4. Remove items from the inventory.
+5. Exit the program.
+Enter your choice: 3
+The current inventory is:
+milk 20
+bread 15
+Please choose one of the following options:
+1. Add new items to the inventory.
+2. Update existing items' quantities.
+3. View the current inventory.
+4. Remove items from the inventory.
+5. Exit the program.
+Enter your choice: 2
+How many items do you want to update? 1
+Enter the name of the item: milk
+Enter the quantity to add or subtract: -5
+Updated milk quantity to 15.
+Please choose one of the following options:
+1. Add new items to the inventory.
+2. Update existing items' quantities.
+3. View the current inventory.
+4. Remove items from the inventory.
+5. Exit the program.
+Enter your choice: 4
+How many items do you want to remove? 1
+Enter the name of the item: bread
+Removed 15 bread(s) from the inventory.
+Please choose one of the following options:
+1. Add new items to the inventory.
+2. Update existing items' quantities.
+3. View the current inventory.
+4. Remove items from the inventory.
+5. Exit the program.
+Enter your choice: 5
+
